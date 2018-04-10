@@ -22,3 +22,5 @@ Program Argument (Type)->
 Example - 
 
 python ./ScrapeParktakes.py -p /tmp -c "AQUA++" 
+
+python ./ScrapeParktakes.py -p /tmp -c "CAMP" 
