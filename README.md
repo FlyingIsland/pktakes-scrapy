@@ -2,8 +2,8 @@
 
 Sample command-line usage: 
 
-Shortform :python  ./ScrapeParktakes.py -p /tmp -c "AQUA++”
-Longform  :python  ./ScrapeParktakes.py --path /tmp --category "AQUA++"
+Shortform :python3  ./ScrapeParktakes.py -p /tmp -c "AQUA++”
+Longform  :python3  ./ScrapeParktakes.py --path /tmp --category "AQUA++"
 
 
 Result of each of the above commands is in CSV file created under the path specified.
@@ -21,6 +21,6 @@ Program Argument (Type)->
 
 Example - 
 
-python ./ScrapeParktakes.py -p /tmp -c "AQUA++" -i 2
+python3 ./ScrapeParktakes.py -p /tmp -c "AQUA++" -i 2
 
-python ./ScrapeParktakes.py -p /tmp -c "CAMP" --interval 2
+python3 ./ScrapeParktakes.py -p /tmp -c "CAMP" --interval 2
