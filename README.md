@@ -21,6 +21,6 @@ Program Argument (Type)->
 
 Example - 
 
-python ./ScrapeParktakes.py -p /tmp -c "AQUA++" 
+python ./ScrapeParktakes.py -p /tmp -c "AQUA++" -i 2
 
-python ./ScrapeParktakes.py -p /tmp -c "CAMP" 
+python ./ScrapeParktakes.py -p /tmp -c "CAMP" --interval 2
