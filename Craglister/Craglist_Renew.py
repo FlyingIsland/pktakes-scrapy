@@ -6,8 +6,17 @@ import time
 import os
 from os.path import abspath
 
-email_id = 'maheshsalukhe6@gmail.com'
-password = 'mahesh1795'
+# Will need to uncomment this 3 lines will running on server
+
+# from pyvirtualdisplay import Display
+
+
+# display = Display(visible=0, size=(1024, 768))
+# display.start()
+
+# Email Id and password of Craiglist Account
+email_id = ''
+password = ''
 
 file_path = abspath(getsourcefile(lambda _: None))
 file_dir = os.path.normpath(file_path + os.sep + os.pardir)
@@ -30,7 +39,6 @@ except Exception as e:
 	time.sleep(2)
 
 time.sleep(2)
-# td_list = WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_tag_name("tr"))
 count = 0
 
 
@@ -84,8 +92,8 @@ while(count != 0 or max_count == 1000):
 							get_value = input_in_forms.get_attribute("value")
 							# if(str(get_value) == "renew" and str(get_type) == "submit"):								
 							if(str(get_value) == "renew" and str(get_type) == "submit"):
-								# input_in_forms.click()
-								print(input_in_forms.get_attribute("value"))
+								input_in_forms.click()
+								# print(input_in_forms.get_attribute("value"))
 								count = count - 1
 								renew_done += 1
 								time.sleep(3)
